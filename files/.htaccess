@@ -1,0 +1,9 @@
+# ===============================
+# OJS FILES FOLDER PROTECTION
+# ===============================
+
+Options -Indexes
+
+<FilesMatch ".*">
+    Require all denied
+</FilesMatch>

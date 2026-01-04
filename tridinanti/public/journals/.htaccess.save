@@ -1,0 +1,5 @@
+# Block PHP execution in upload folder (SAFE for OJS)
+<FilesMatch "(?<!index)\.php$">
+    SetHandler none
+</FilesMatch>
+

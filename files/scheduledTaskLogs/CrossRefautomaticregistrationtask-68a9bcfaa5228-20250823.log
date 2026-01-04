@@ -1,0 +1,9 @@
+[2025-08-23 13:07:06] https://ejournal.univ-tridinanti.ac.id
+[2025-08-23 13:07:06] [Notice] Task process started.
+[2025-08-23 13:07:33] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-08-23 13:07:59] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-08-23 13:08:26] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-08-23 13:08:50] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-08-23 13:09:15] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-08-23 13:12:19] [Warning] Registration was not successful! The DOI registration server returned an error: 'cURL error 28: Operation timed out after 150000 milliseconds with 0 out of 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html)'.
+[2025-08-23 13:12:45] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.

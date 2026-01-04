@@ -1,0 +1,21 @@
+[2025-09-05 13:11:53] https://ejournal.univ-tridinanti.ac.id
+[2025-09-05 13:11:53] [Notice] Task process started.
+[2025-09-05 13:12:35] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-09-05 13:13:07] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-09-05 13:13:36] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-09-05 13:14:05] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-09-05 13:14:33] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-09-05 13:15:05] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-09-05 13:17:42] [Warning] Registration was not successful! The DOI registration server returned an error: 'cURL error 28: Failed to connect to test.crossref.org port 443: Connection timed out (see https://curl.haxx.se/libcurl/c/libcurl-errors.html)'.
+[2025-09-05 13:18:21] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-09-05 13:18:56] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-09-05 13:19:30] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-09-05 13:20:00] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-09-05 13:20:34] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-09-05 13:21:05] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-09-05 13:21:33] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-09-05 13:22:08] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-09-05 13:22:41] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-09-05 13:23:17] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-09-05 13:23:48] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2025-09-05 13:24:23] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.

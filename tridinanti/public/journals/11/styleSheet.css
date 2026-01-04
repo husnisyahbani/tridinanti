@@ -1,0 +1,15 @@
+.pkp_site_name .is_text {
+color: #fff;
+font-family: ‘Open Sans’, sans-serif;
+font-weight: 550;
+font-size:35px;
+}
+
+.pkp_navigation_primary > li > a,
+.pkp_navigation_user > li > a,
+.pkp_navigation_user > li.in_focus > a,
+.pkp_navigation_user > li > a:hover,
+.pkp_navigation_user > li > a:focus,
+.pkp_head_wrapper .pkp_search .search_prompt {
+color: #fff;
+}

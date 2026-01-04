@@ -1,0 +1,55 @@
+.vertical-menu {
+width: 100%; /* lebar dari menu, saran saya tidak perlu di ubah */
+}
+
+.vertical-menu a {
+background-color: #d9ffe9; /* Warna pada bagian body menu */
+color: black; /* Warna tulisan */
+display: block;
+padding: 12px;
+text-decoration: none;
+font-family: arial; /*Jenis font*/
+}
+
+.vertical-menu a:hover {
+background-color: #CF32FF; /* Warna efek yang keluar ketika di arahkan mouse */
+}
+
+.vertical-menu a.active {
+background-color: #2ac2f5; /* Warna pada header menu */
+color: white; /*Warna font*/
+font-family: arial; /*Jenis font*/
+}
+
+.pkp_structure_head {
+background:#3e53b5;
+}
+body {
+font-family: tahoma,geneva,sans-serif;
+}
+.obj_article_details .abstract {
+text-align: justify;
+}
+.pkp_footer_content {
+float: left;
+width: 50%; padding-top: 10px;
+padding-bottom:10px;
+}
+.pkp_brand_footer {
+float: right;
+width: 30%;
+padding-bottom:10px;
+padding-top: 50px;
+}
+.pkp_structure_footer_wrapper {
+background: #e8ebef;
+border-bottom:@double solid;
+border-bottom-color:#595959;
+}
+.pkp_site_name .is_img img {
+display: inline-block;
+max-height: 100px;
+max-width: 100%;
+width: auto;
+height: auto;
+}

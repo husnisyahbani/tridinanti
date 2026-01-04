@@ -1,0 +1,14 @@
+#php_flag engine off
+#<FilesMatch "\.php$">
+#    Require all denied
+#</FilesMatch>
+# Disable PHP execution only
+#php_flag engine off
+
+#<FilesMatch "\.(php|phtml|phar|php3|php4|php5|php7)$">
+#    SetHandler none
+#</FilesMatch>
+# Block PHP execution in upload folder (SAFE for OJS)
+<FilesMatch "(?<!index)\.php$">
+    SetHandler none
+</FilesMatch>

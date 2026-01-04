@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Beranda Portal -->
+  <url>
+    <loc>https://ejournal.univ-tridinanti.ac.id/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Halaman Daftar Jurnal -->
+  <url>
+    <loc>https://ejournal.univ-tridinanti.ac.id/index.php/index</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Jurnal Kompetitif -->
+  <url>
+    <loc>https://ejournal.univ-tridinanti.ac.id/index.php/kompetitif</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jurnal Riset Akuntansi Tridinanti (RATRI) -->
+  <url>
+    <loc>https://ejournal.univ-tridinanti.ac.id/index.php/ratri</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Strategi : Jurnal Manajemen -->
+  <url>
+    <loc>https://ejournal.univ-tridinanti.ac.id/index.php/strategi</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jurnal Ekonomi Mengabdi (JEM) -->
+  <url>
+    <loc>https://ejournal.univ-tridinanti.ac.id/index.php/JEM</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Journal Didactique Bahasa Indonesia (JDBI) -->
+  <url>
+    <loc>https://ejournal.univ-tridinanti.ac.id/index.php/DidactiqueBahasaIndonesia</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Didascein: Journal of English Education (DJoEE) -->
+  <url>
+    <loc>https://ejournal.univ-tridinanti.ac.id/index.php/didascein</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jurnal Desiminasi Teknologi (DesTek) -->
+  <url>
+    <loc>https://ejournal.univ-tridinanti.ac.id/index.php/Desiminasi</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jurnal Teknik Sipil LATERAL -->
+  <url>
+    <loc>https://ejournal.univ-tridinanti.ac.id/index.php/lateral</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- JIeTri -->
+  <url>
+    <loc>https://ejournal.univ-tridinanti.ac.id/index.php/Jietri</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Infolek -->
+  <url>
+    <loc>https://ejournal.univ-tridinanti.ac.id/index.php/infolek</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Inovarsi -->
+  <url>
+    <loc>https://ejournal.univ-tridinanti.ac.id/index.php/inovarsi</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Jurnal TriAgro (JTA) -->
+  <url>
+    <loc>https://ejournal.univ-tridinanti.ac.id/index.php/JTA</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- TRISEPA -->
+  <url>
+    <loc>https://ejournal.univ-tridinanti.ac.id/index.php/TRISEPA</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

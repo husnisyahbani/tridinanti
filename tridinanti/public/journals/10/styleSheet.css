@@ -1,0 +1,7 @@
+.pkp_site_name .is_img img {
+  display: inline-block;
+  max-height: 360px;
+  max-width: 3000%;
+  width: auto;
+  height: auto;
+}
