@@ -1,0 +1,5 @@
+files/usageStats/usageEventLogs/
+*.log
+.cache/
+tmp/
+sessions/
