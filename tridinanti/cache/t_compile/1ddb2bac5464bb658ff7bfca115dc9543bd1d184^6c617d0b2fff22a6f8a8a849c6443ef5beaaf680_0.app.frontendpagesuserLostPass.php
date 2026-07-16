@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-24 07:29:20
+/* Smarty version 3.1.39, created on 2026-07-07 01:23:40
   from 'app:frontendpagesuserLostPass' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694b33e03ce2a5_79646242',
+  'unifunc' => 'content_6a4bf2ac107d71_76611473',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:frontend/components/footer.tpl' => 1,
   ),
 ),false)) {
-function content_694b33e03ce2a5_79646242 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a4bf2ac107d71_76611473 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("app:frontend/components/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('pageTitle'=>"user.login.resetPassword"), 0, false);
 ?>
 

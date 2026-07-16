@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-25 17:45:55
+/* Smarty version 3.1.39, created on 2026-07-07 09:25:23
   from 'app:submissionsubmissionLocal' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694d15e3d86d43_87394728',
+  'unifunc' => 'content_6a4c639311dc14_25248735',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_694d15e3d86d43_87394728 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a4c639311dc14_25248735 (Smarty_Internal_Template $_smarty_tpl) {
 if (count($_smarty_tpl->tpl_vars['supportedSubmissionLocaleNames']->value) == 1) {?>
 		<?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['supportedSubmissionLocaleNames']->value, 'localeName', false, 'locale');
@@ -34,19 +34,19 @@ $_smarty_tpl->tpl_vars['localeName']->do_else = false;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);
 } else { ?>
-		<?php $_block_plugin11 = isset($_smarty_tpl->smarty->registered_plugins['block']['fbvFormSection'][0][0]) ? $_smarty_tpl->smarty->registered_plugins['block']['fbvFormSection'][0][0] : null;
-if (!is_callable(array($_block_plugin11, 'smartyFBVFormSection'))) {
+		<?php $_block_plugin10 = isset($_smarty_tpl->smarty->registered_plugins['block']['fbvFormSection'][0][0]) ? $_smarty_tpl->smarty->registered_plugins['block']['fbvFormSection'][0][0] : null;
+if (!is_callable(array($_block_plugin10, 'smartyFBVFormSection'))) {
 throw new SmartyException('block tag \'fbvFormSection\' not callable or registered');
 }
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('fbvFormSection', array('title'=>"submission.submit.submissionLocale",'for'=>"locale"));
 $_block_repeat=true;
-echo $_block_plugin11->smartyFBVFormSection(array('title'=>"submission.submit.submissionLocale",'for'=>"locale"), null, $_smarty_tpl, $_block_repeat);
+echo $_block_plugin10->smartyFBVFormSection(array('title'=>"submission.submit.submissionLocale",'for'=>"locale"), null, $_smarty_tpl, $_block_repeat);
 while ($_block_repeat) {
 ob_start();?>
 		<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['fbvElement'][0], array( array('label'=>"submission.submit.submissionLocaleDescription",'required'=>"true",'type'=>"select",'id'=>"locale",'from'=>$_smarty_tpl->tpl_vars['supportedSubmissionLocaleNames']->value,'selected'=>$_smarty_tpl->tpl_vars['locale']->value,'translate'=>false,'readonly'=>$_smarty_tpl->tpl_vars['readOnly']->value,'size'=>$_smarty_tpl->tpl_vars['fbvStyles']->value['size']['MEDIUM']),$_smarty_tpl ) );?>
 
 	<?php $_block_repeat=false;
-echo $_block_plugin11->smartyFBVFormSection(array('title'=>"submission.submit.submissionLocale",'for'=>"locale"), ob_get_clean(), $_smarty_tpl, $_block_repeat);
+echo $_block_plugin10->smartyFBVFormSection(array('title'=>"submission.submit.submissionLocale",'for'=>"locale"), ob_get_clean(), $_smarty_tpl, $_block_repeat);
 }
 array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);
 }

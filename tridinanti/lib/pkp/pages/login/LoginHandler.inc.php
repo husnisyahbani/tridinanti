@@ -57,6 +57,31 @@ class LoginHandler extends Handler {
 			'showRemember' => Config::getVar('general', 'session_lifetime') > 0,
 		));
 
+		// Add reCAPTCHA if enabled
+		if (Config::getVar('captcha', 'captcha_on_login') && Config::getVar('captcha', 'recaptcha')) {
+			$publicKey = Config::getVar('captcha', 'recaptcha_public_key');
+			$reCaptchaV3 = '<input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response" value="" />
+<script src="https://www.google.com/recaptcha/api.js?render=' . $publicKey . '"></script>
+<script>
+grecaptcha.ready(function() {
+    grecaptcha.execute("' . $publicKey . '", {action: "login"}).then(function(token) {
+        document.getElementById("g-recaptcha-response").value = token;
+    });
+});
+var form = document.querySelector("form");
+if (form) {
+    form.addEventListener("submit", function(ev) {
+        ev.preventDefault();
+        grecaptcha.execute("' . $publicKey . '", {action: "login"}).then(function(token) {
+            document.getElementById("g-recaptcha-response").value = token;
+            form.submit();
+        });
+    });
+}
+</script>';
+$templateMgr->assign('reCaptchaHtml', $reCaptchaV3);
+		}
+
 		// For force_login_ssl with base_url[...]: make sure SSL used for login form
 		$loginUrl = $request->url(null, 'login', 'signIn');
 		if (Config::getVar('security', 'force_login_ssl')) {
@@ -94,6 +119,47 @@ class LoginHandler extends Handler {
 		if (Config::getVar('security', 'force_login_ssl') && $request->getProtocol() != 'https') {
 			// Force SSL connections for login
 			$request->redirectSSL();
+		}
+
+		// Check reCAPTCHA before login
+		if (Config::getVar('captcha', 'captcha_on_login') && Config::getVar('captcha', 'recaptcha')) {
+			import('lib.pkp.classes.form.Form');
+			$tempForm = new Form('frontend/pages/userLogin.tpl');
+			$tempForm->setData('g-recaptcha-response', $request->getUserVar('g-recaptcha-response'));
+			$validator = new FormValidatorReCaptcha($tempForm, $request->getRemoteAddr(), 'common.captcha.error.invalid-input-response', $request->getServerHost());
+			if (!$validator->isValid()) {
+				$sessionManager = SessionManager::getManager();
+				$session = $sessionManager->getUserSession();
+				$templateMgr = TemplateManager::getManager($request);
+				$templateMgr->assign(array(
+					'username' => $request->getUserVar('username'),
+					'remember' => $request->getUserVar('remember'),
+					'source' => $request->getUserVar('source'),
+					'showRemember' => Config::getVar('general', 'session_lifetime') > 0,
+					'error' => 'common.captcha.error.invalid-input-response',
+					'reCaptchaHtml' => '<input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response" value="" />
+<script src="https://www.google.com/recaptcha/api.js?render=' . Config::getVar('captcha', 'recaptcha_public_key') . '"></script>
+<script>
+grecaptcha.ready(function() {
+    grecaptcha.execute("' . Config::getVar('captcha', 'recaptcha_public_key') . '", {action: "login"}).then(function(token) {
+        document.getElementById("g-recaptcha-response").value = token;
+    });
+});
+var form = document.querySelector("form");
+if (form) {
+    form.addEventListener("submit", function(ev) {
+        ev.preventDefault();
+        grecaptcha.execute("' . Config::getVar('captcha', 'recaptcha_public_key') . '", {action: "login"}).then(function(token) {
+            document.getElementById("g-recaptcha-response").value = token;
+            form.submit();
+        });
+    });
+}
+</script>',
+				));
+				$templateMgr->display('frontend/pages/userLogin.tpl');
+				return;
+			}
 		}
 
 		$user = Validation::login($request->getUserVar('username'), $request->getUserVar('password'), $reason, $request->getUserVar('remember') == null ? false : true);

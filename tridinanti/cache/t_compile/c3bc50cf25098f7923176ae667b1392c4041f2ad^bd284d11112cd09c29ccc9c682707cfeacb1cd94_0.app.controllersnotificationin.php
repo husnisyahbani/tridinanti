@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-25 13:54:23
+/* Smarty version 3.1.39, created on 2026-07-06 10:45:40
   from 'app:controllersnotificationin' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694cdf9f4a5142_41481226',
+  'unifunc' => 'content_6a4b24e47dbcc3_01141785',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:controllers/notification/notificationOptions.tpl' => 1,
   ),
 ),false)) {
-function content_694cdf9f4a5142_41481226 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a4b24e47dbcc3_01141785 (Smarty_Internal_Template $_smarty_tpl) {
 echo '<script'; ?>
 >
 	$(function() {

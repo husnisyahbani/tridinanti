@@ -1,0 +1,4 @@
+[2026-06-04 20:39:03] https://ejournal.univ-tridinanti.ac.id
+[2026-06-04 20:39:03] [Notice] Task process started.
+[2026-06-04 20:39:26] [Error] The line number 660 from the file /home/univ-tridinanti-ejournal/htdocs/ejournal.univ-tridinanti.ac.id/files/usageStats/processing/usage_events_20260603.log is not a valid log entry and the file was rejected.
+[2026-06-04 20:39:26] [Notice] Task process stopped.

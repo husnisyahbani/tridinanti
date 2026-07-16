@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-29 06:00:00
+/* Smarty version 3.1.39, created on 2026-07-04 05:49:17
   from 'app:frontendpagesuserRegister' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6951b670b3af18_05431886',
+  'unifunc' => 'content_6a483c6d05d214_32240049',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd49dc0801a97aaed7a39f9de90403c63b1cc8e43' => 
     array (
       0 => 'app:frontendpagesuserRegister',
-      1 => 1664910729,
+      1 => 1782796294,
       2 => 'app',
     ),
   ),
@@ -26,7 +26,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:frontend/components/footer.tpl' => 1,
   ),
 ),false)) {
-function content_6951b670b3af18_05431886 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a483c6d05d214_32240049 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("app:frontend/components/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('pageTitle'=>"user.register"), 0, false);
 ?>
 
@@ -201,6 +201,7 @@ $_smarty_tpl->smarty->ext->_capture->close($_smarty_tpl);?>
 			</fieldset>
 		<?php }?>
 
+	<div style="position:absolute;left:-9999px;" aria-hidden="true"><input type="text" name="anti_spam_website" id="anti_spam_website" value="" tabindex="-1" autocomplete="off" /></div>
 		<div class="buttons">
 			<button class="submit" type="submit">
 				<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0], array( array('key'=>"user.register"),$_smarty_tpl ) );?>

@@ -27,7 +27,7 @@
     ),
     2 => 
     array (
-      'className' => 'plugins.importexport.datacite.DataciteInfoSender',
+      'className' => 'plugins.importexport.crossref.CrossrefInfoSender',
       'frequency' => 
       array (
         'hour' => 24,
@@ -49,7 +49,7 @@
     ),
     4 => 
     array (
-      'className' => 'plugins.importexport.crossref.CrossrefInfoSender',
+      'className' => 'plugins.importexport.datacite.DataciteInfoSender',
       'frequency' => 
       array (
         'hour' => 24,
@@ -72,7 +72,7 @@
     ),
     6 => 
     array (
-      'className' => 'plugins.importexport.datacite.DataciteInfoSender',
+      'className' => 'plugins.importexport.crossref.CrossrefInfoSender',
       'frequency' => 
       array (
         'hour' => 24,
@@ -94,7 +94,7 @@
     ),
     8 => 
     array (
-      'className' => 'plugins.importexport.crossref.CrossrefInfoSender',
+      'className' => 'plugins.importexport.datacite.DataciteInfoSender',
       'frequency' => 
       array (
         'hour' => 24,
@@ -117,7 +117,7 @@
     ),
     10 => 
     array (
-      'className' => 'plugins.importexport.datacite.DataciteInfoSender',
+      'className' => 'plugins.importexport.crossref.CrossrefInfoSender',
       'frequency' => 
       array (
         'hour' => 24,
@@ -139,7 +139,7 @@
     ),
     12 => 
     array (
-      'className' => 'plugins.importexport.crossref.CrossrefInfoSender',
+      'className' => 'plugins.importexport.datacite.DataciteInfoSender',
       'frequency' => 
       array (
         'hour' => 24,

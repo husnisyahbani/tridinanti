@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-25 10:26:08
+/* Smarty version 3.1.39, created on 2026-07-05 21:34:06
   from 'plugins-13-plugins-generic-citationStyleLanguage-generic-citationStyleLanguage:citationstylesris.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694caed0449cd5_67144407',
+  'unifunc' => 'content_6a4a6b5e4aef30_77713391',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,8 +20,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_694caed0449cd5_67144407 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/home/stiksitikhadijah/tridinanti/lib/pkp/lib/vendor/smarty/smarty/libs/plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),1=>array('file'=>'/home/stiksitikhadijah/tridinanti/lib/pkp/lib/vendor/smarty/smarty/libs/plugins/modifier.replace.php','function'=>'smarty_modifier_replace',),));
+function content_6a4a6b5e4aef30_77713391 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/home/univ-tridinanti-ejournal/htdocs/ejournal.univ-tridinanti.ac.id/tridinanti/lib/pkp/lib/vendor/smarty/smarty/libs/plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),1=>array('file'=>'/home/univ-tridinanti-ejournal/htdocs/ejournal.univ-tridinanti.ac.id/tridinanti/lib/pkp/lib/vendor/smarty/smarty/libs/plugins/modifier.replace.php','function'=>'smarty_modifier_replace',),));
 $_smarty_tpl->_assignInScope('containerTitle', "container-title");
 $_smarty_tpl->_assignInScope('containerTitleShort', "container-title-short");?>
 TY  - JOUR

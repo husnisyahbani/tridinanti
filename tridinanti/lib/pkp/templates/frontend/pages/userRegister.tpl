@@ -150,6 +150,8 @@
 			</fieldset>
 		{/if}
 
+	{* Honeypot anti-spam *}
+<div style="position:absolute;left:-9999px;" aria-hidden="true"><input type="text" name="anti_spam_website" id="anti_spam_website" value="" tabindex="-1" autocomplete="off" /></div>
 		<div class="buttons">
 			<button class="submit" type="submit">
 				{translate key="user.register"}

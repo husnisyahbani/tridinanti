@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-25 13:54:23
+/* Smarty version 3.1.39, created on 2026-07-06 10:45:40
   from 'app:workflowreviewRound.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694cdf9f49c791_11093525',
+  'unifunc' => 'content_6a4b24e47d2ee6_16045225',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:controllers/tab/workflow/stageParticipants.tpl' => 1,
   ),
 ),false)) {
-function content_694cdf9f49c791_11093525 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a4b24e47d2ee6_16045225 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="pkp_panel_wrapper">
 
 	<?php if ($_smarty_tpl->tpl_vars['isLastReviewRound']->value) {?>

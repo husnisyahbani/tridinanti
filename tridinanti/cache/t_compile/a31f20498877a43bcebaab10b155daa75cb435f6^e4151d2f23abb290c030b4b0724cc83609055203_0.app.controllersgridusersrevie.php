@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-26 15:26:05
+/* Smarty version 3.1.39, created on 2026-07-15 09:54:55
   from 'app:controllersgridusersrevie' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694e469d966838_98697110',
+  'unifunc' => 'content_6a56f67f5c2b25_21037516',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:controllers/notification/inPlaceNotificationContent.tpl' => 1,
   ),
 ),false)) {
-function content_694e469d966838_98697110 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a56f67f5c2b25_21037516 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="pkp_notification" id="noFilesWarning" style="display: none;">
 	<?php $_smarty_tpl->_subTemplateRender("app:controllers/notification/inPlaceNotificationContent.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('notificationId'=>'noFilesWarningContent','notificationStyleClass'=>'notifyWarning','notificationTitle'=>call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'translate' ][ 0 ], array( "editor.submission.noReviewerFilesSelected" )),'notificationContents'=>call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'translate' ][ 0 ], array( "editor.submission.noReviewerFilesSelected.details" ))), 0, false);
 ?>

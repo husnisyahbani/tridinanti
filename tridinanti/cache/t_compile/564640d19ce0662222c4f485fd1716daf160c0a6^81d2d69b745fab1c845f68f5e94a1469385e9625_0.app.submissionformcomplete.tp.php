@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-25 17:51:55
+/* Smarty version 3.1.39, created on 2026-07-10 23:14:07
   from 'app:submissionformcomplete.tp' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694d174bb89307_69415401',
+  'unifunc' => 'content_6a511a4f2ade91_45952603',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_694d174bb89307_69415401 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a511a4f2ade91_45952603 (Smarty_Internal_Template $_smarty_tpl) {
 ?><h2><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0], array( array('key'=>"submission.submit.submissionComplete"),$_smarty_tpl ) );?>
 </h2>
 <p><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0], array( array('key'=>"submission.submit.submissionCompleteThanks",'contextName'=>$_smarty_tpl->tpl_vars['context']->value->getLocalizedName()),$_smarty_tpl ) );?>

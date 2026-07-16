@@ -201,7 +201,7 @@ class PKPTemplateManager extends Smarty {
 					'recaptcha',
 					'https://www.recaptcha.net/recaptcha/api.js?hl=' . substr(AppLocale::getLocale(),0,2),
 					[
-						'contexts' => ['frontend-user-register', 'frontend-user-registerUser'],
+						'contexts' => ['frontend-user-register', 'frontend-user-registerUser', 'frontend-login'],
 					]
 				);
 			}

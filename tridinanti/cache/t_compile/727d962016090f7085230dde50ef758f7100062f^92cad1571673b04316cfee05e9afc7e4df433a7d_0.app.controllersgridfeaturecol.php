@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-26 15:25:34
+/* Smarty version 3.1.39, created on 2026-07-07 05:30:27
   from 'app:controllersgridfeaturecol' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694e467e9b35d9_95301315',
+  'unifunc' => 'content_6a4c2c83e47419_66799661',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:linkAction/linkAction.tpl' => 1,
   ),
 ),false)) {
-function content_694e467e9b35d9_95301315 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a4c2c83e47419_66799661 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("app:linkAction/linkAction.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('action'=>$_smarty_tpl->tpl_vars['controlLink']->value,'contextId'=>'collapsibleGridControl'), 0, false);
 }
 }

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-25 17:11:56
+/* Smarty version 3.1.39, created on 2026-07-04 16:07:53
   from 'app:frontendcomponentsannounc' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694d0dece38177_06392638',
+  'unifunc' => 'content_6a48cd69e96af3_64037342',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:frontend/objects/announcement_summary.tpl' => 1,
   ),
 ),false)) {
-function content_694d0dece38177_06392638 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a48cd69e96af3_64037342 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <ul class="cmp_announcements">
 	<?php

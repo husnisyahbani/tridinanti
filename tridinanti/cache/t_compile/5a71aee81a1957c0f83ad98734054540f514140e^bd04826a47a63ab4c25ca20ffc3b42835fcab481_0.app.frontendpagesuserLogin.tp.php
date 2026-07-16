@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-24 06:55:28
+/* Smarty version 3.1.39, created on 2026-07-04 05:33:49
   from 'app:frontendpagesuserLogin.tp' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694b2bf0dcea28_68242037',
+  'unifunc' => 'content_6a4838cdcc15b8_94229836',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bd04826a47a63ab4c25ca20ffc3b42835fcab481' => 
     array (
       0 => 'app:frontendpagesuserLogin.tp',
-      1 => 1664910729,
+      1 => 1782435208,
       2 => 'app',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:frontend/components/footer.tpl' => 1,
   ),
 ),false)) {
-function content_694b2bf0dcea28_68242037 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a4838cdcc15b8_94229836 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("app:frontend/components/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('pageTitle'=>"user.login"), 0, false);
 ?>
 
@@ -104,7 +104,18 @@ $_smarty_tpl->_subTemplateRender("app:frontend/components/header.tpl", $_smarty_
 					</span>
 				</label>
 			</div>
-			<div class="buttons">
+			<?php if ($_smarty_tpl->tpl_vars['reCaptchaHtml']->value) {?>
+			<fieldset class="recaptcha_wrapper">
+				<div class="fields">
+					<div class="recaptcha">
+						<?php echo $_smarty_tpl->tpl_vars['reCaptchaHtml']->value;?>
+
+					</div>
+				</div>
+			</fieldset>
+		<?php }?>
+
+		<div class="buttons">
 				<button class="submit" type="submit">
 					<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0], array( array('key'=>"user.login"),$_smarty_tpl ) );?>
 

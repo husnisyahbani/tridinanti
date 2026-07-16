@@ -93,7 +93,7 @@ restful_urls = Off
 ; An empty string indicates that all hosts should be trusted (not recommended!)
 ; Example:
 ; allowed_hosts = '["myjournal.tld", "anotherjournal.tld", "mylibrary.tld"]'
-allowed_hosts = ''
+allowed_hosts = '["ejournal.univ-tridinanti.ac.id"]'
 
 ; Allow the X_FORWARDED_FOR header to override the REMOTE_ADDR as the source IP
 ; Set this to "On" if you are behind a reverse proxy and you control the X_FORWARDED_FOR
@@ -139,7 +139,7 @@ sitewide_privacy_statement = Off
 driver = mysqli
 host = localhost
 username = jurnaltridinanti
-password = "kGNRXFDagCiN34ZpAwP1"
+password = "Trid!n4nt1_J0urn4l_2026#"
 name = jurnaltridinanti
 
 ; Set the non-standard port and/or socket, if used
@@ -250,10 +250,10 @@ filename_revision_match = 70
 [security]
 
 ; Force SSL connections site-wide
-force_ssl = Off
+force_ssl = On
 
 ; Force SSL connections for login only
-force_login_ssl = Off
+force_login_ssl = On
 
 ; This check will invalidate a session if the user's IP address changes.
 ; Enabling this option provides some amount of additional security, but may
@@ -311,17 +311,17 @@ allowed_html = "a[href|target|title],em,strong,cite,code,ul,ol,li[class],dl,dt,d
 [email]
 
 ; Use SMTP for sending mail instead of mail()
-; smtp = On
+smtp = On
 
 ; SMTP server settings
-; smtp_server = mail.example.com
-; smtp_port = 25
+smtp_server = smtp.gmail.com
+smtp_port = 587
 
 ; Enable SMTP authentication
 ; Supported smtp_auth: ssl, tls (see PHPMailer SMTPSecure)
-; smtp_auth = ssl
-; smtp_username = username
-; smtp_password = password
+smtp_auth = tls
+smtp_username = lppm@univ-tridinanti.ac.id
+smtp_password = rfugkgiindkovqvc
 ;
 ; Supported smtp_authtype: RAM-MD5, LOGIN, PLAIN, XOAUTH2 (see PHPMailer AuthType)
 ; (Leave blank to try them in that order)
@@ -337,19 +337,19 @@ allowed_html = "a[href|target|title],em,strong,cite,code,ul,ol,li[class],dl,dt,d
 
 ; Enable suppressing verification of SMTP certificate in PHPMailer
 ; Note: this is not recommended per PHPMailer documentation
-; smtp_suppress_cert_check = On
+smtp_suppress_cert_check = On
 
 ; Allow envelope sender to be specified
 ; (may not be possible with some server configurations)
-; allow_envelope_sender = Off
+allow_envelope_sender = Off
 
 ; Default envelope sender to use if none is specified elsewhere
-; default_envelope_sender = my_address@my_host.com
+default_envelope_sender = lppm@univ-tridinanti.ac.id
 
 ; Force the default envelope sender (if present)
 ; This is useful if setting up a site-wide no-reply address
 ; The reply-to field will be set with the reply-to or from address.
-; force_default_envelope_sender = Off
+force_default_envelope_sender = On
 
 ; Force a DMARC compliant from header (RFC5322.From)
 ; If any of your users have email addresses in domains not under your control
@@ -359,7 +359,7 @@ allowed_html = "a[href|target|title],em,strong,cite,code,ul,ol,li[class],dl,dt,d
 ; from field wil be rewritten with the default_envelope_sender.
 ; To use this you must set force_default_enveloper_sender = On and
 ; default_envelope_sender must be set to a valid address in a domain you own.
-; force_dmarc_compliant_from = Off
+force_dmarc_compliant_from = On
 
 ; The display name to use with a DMARC compliant from header
 ; By default the DMARC compliant from will have an empty name but this can
@@ -370,14 +370,14 @@ allowed_html = "a[href|target|title],em,strong,cite,code,ul,ol,li[class],dl,dt,d
 
 ; Amount of time required between attempts to send non-editorial emails
 ; in seconds. This can be used to help prevent email relaying via OJS.
-time_between_emails = 3600
+time_between_emails = 60
 
 ; Maximum number of recipients that can be included in a single email
 ; (either as To:, Cc:, or Bcc: addresses) for a non-privileged user
 max_recipients = 10
 
 ; If enabled, email addresses must be validated before login is possible.
-require_validation = Off
+require_validation = On
 
 ; Maximum number of days before an unvalidated account expires and is deleted
 validation_timeout = 14
@@ -455,14 +455,15 @@ page_links = 10
 recaptcha = on
 
 ; Public key for reCaptcha (see http://www.google.com/recaptcha)
-recaptcha_public_key = "6LeMDiYsAAAAANoV01hKErqO5BYSPOSEOlENR51F"
+recaptcha_public_key = "6LcnkjctAAAAAPk1vr7UGTVLyLi-EvhMDFR5dVPB"
 
 ; Private key for reCaptcha (see http://www.google.com/recaptcha)
-recaptcha_private_key = "6LeMDiYsAAAAAM7lu-FLrO1nlUXVkpX2SNb9YcwQ"
+recaptcha_private_key = "6LcnkjctAAAAANe1wgWzJahDmWmZXzYG2ND93_tM"
 
 ; Whether or not to use Captcha on user registration
 captcha_on_register = on
 
+captcha_on_login = on
 ; Validate the hostname in the ReCaptcha response
 recaptcha_enforce_hostname = On
 

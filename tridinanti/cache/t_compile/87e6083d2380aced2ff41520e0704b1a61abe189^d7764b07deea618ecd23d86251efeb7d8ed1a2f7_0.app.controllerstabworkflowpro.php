@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-26 01:21:19
+/* Smarty version 3.1.39, created on 2026-07-07 05:01:14
   from 'app:controllerstabworkflowpro' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694d809f6810b4_44579682',
+  'unifunc' => 'content_6a4c25aa03a811_18788174',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:controllers/notification/inPlaceNotification.tpl' => 1,
   ),
 ),false)) {
-function content_694d809f6810b4_44579682 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a4c25aa03a811_18788174 (Smarty_Internal_Template $_smarty_tpl) {
 echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['help'][0], array( array('file'=>"editorial-workflow/production",'class'=>"pkp_help_tab"),$_smarty_tpl ) );?>
 
 

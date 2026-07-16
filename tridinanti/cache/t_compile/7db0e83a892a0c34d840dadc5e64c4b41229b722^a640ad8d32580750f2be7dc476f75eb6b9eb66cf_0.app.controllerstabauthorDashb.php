@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-26 09:07:41
+/* Smarty version 3.1.39, created on 2026-07-05 20:19:47
   from 'app:controllerstabauthorDashb' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694deded646648_68052672',
+  'unifunc' => 'content_6a4a59f322e8a0_04844550',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:authorDashboard/submissionEmails.tpl' => 1,
   ),
 ),false)) {
-function content_694deded646648_68052672 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a4a59f322e8a0_04844550 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['submission']->value->getStageId() >= (defined('WORKFLOW_STAGE_ID_EDITING') ? constant('WORKFLOW_STAGE_ID_EDITING') : null)) {?>
 	<!-- Display editor's message to the author -->
 	<?php $_smarty_tpl->_subTemplateRender("app:authorDashboard/submissionEmails.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('submissionEmails'=>$_smarty_tpl->tpl_vars['copyeditingEmails']->value), 0, false);

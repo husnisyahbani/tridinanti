@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-26 09:01:05
+/* Smarty version 3.1.39, created on 2026-07-07 11:06:31
   from 'app:userpublicProfileForm.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694dec61d8b180_78119877',
+  'unifunc' => 'content_6a4c7b47ef1271_32129289',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:controllers/fileUploadContainer.tpl' => 1,
   ),
 ),false)) {
-function content_694dec61d8b180_78119877 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a4c7b47ef1271_32129289 (Smarty_Internal_Template $_smarty_tpl) {
 echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['help'][0], array( array('file'=>"user-profile",'class'=>"pkp_help_tab"),$_smarty_tpl ) );?>
 
 

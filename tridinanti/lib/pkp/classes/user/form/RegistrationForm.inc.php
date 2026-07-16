@@ -91,7 +91,23 @@ class RegistrationForm extends Form {
 
 		if ($this->captchaEnabled) {
 			$publicKey = Config::getVar('captcha', 'recaptcha_public_key');
-			$reCaptchaHtml = '<div class="g-recaptcha" data-sitekey="' . $publicKey . '"></div>';
+			$reCaptchaHtml = '<input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response" value="" />
+<script src="https://www.google.com/recaptcha/api.js?render=' . $publicKey . '"></script>
+<script>
+grecaptcha.ready(function() {
+    grecaptcha.execute("' . $publicKey . '", {action: "register"}).then(function(token) {
+        document.getElementById("g-recaptcha-response").value = token;
+    });
+});
+var form = document.querySelector("form");
+if (form) {
+    form.addEventListener("submit", function() {
+        grecaptcha.execute("' . $publicKey . '", {action: "register"}).then(function(token) {
+            document.getElementById("g-recaptcha-response").value = token;
+        });
+    });
+}
+</script>';
 			$templateMgr->assign(array(
 				'reCaptchaHtml' => $reCaptchaHtml,
 				'captchaEnabled' => true,
@@ -158,6 +174,11 @@ class RegistrationForm extends Form {
 			));
 		}
 
+		// Read honeypot field
+		$this->readUserVars(array(
+			'anti_spam_website',
+		));
+
 		// Collect the specified user group IDs into a single piece of data
 		$this->setData('userGroupIds', array_merge(
 			array_keys((array) $this->getData('readerGroup')),
@@ -170,6 +191,11 @@ class RegistrationForm extends Form {
 	 */
 	function validate($callHooks = true) {
 		$request = Application::get()->getRequest();
+
+		// Honeypot anti-spam: reject if hidden field is filled
+		if ($this->getData('anti_spam_website') != '') {
+			$this->addError('anti_spam_website', 'Spam detected');
+		}
 
 		// Ensure the consent checkbox has been completed for the site and any user
 		// group signups if we're in the site-wide registration form
@@ -246,15 +272,12 @@ class RegistrationForm extends Form {
 
 		if (isset($this->defaultAuth)) {
 			$user->setPassword($this->getData('password'));
-			// FIXME Check result and handle failures
 			$this->defaultAuth->doCreateUser($user);
 			$user->setAuthId($this->defaultAuth->authId);
 		}
 		$user->setPassword(Validation::encryptCredentials($this->getData('username'), $this->getData('password')));
 
 		if ($requireValidation) {
-			// The account should be created in a disabled
-			// state.
 			$user->setDisabled(true);
 			$user->setDisabledReason(__('user.login.accountNotValidated', array('email' => $this->getData('email'))));
 		}

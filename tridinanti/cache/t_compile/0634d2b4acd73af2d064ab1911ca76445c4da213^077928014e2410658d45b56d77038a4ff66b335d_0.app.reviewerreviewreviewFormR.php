@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-25 13:59:12
+/* Smarty version 3.1.39, created on 2026-07-13 06:45:46
   from 'app:reviewerreviewreviewFormR' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694ce0c070e5a9_53677108',
+  'unifunc' => 'content_6a54272a8fe381_20907061',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,14 +20,14 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_694ce0c070e5a9_53677108 (Smarty_Internal_Template $_smarty_tpl) {
-$_block_plugin9 = isset($_smarty_tpl->smarty->registered_plugins['block']['iterate'][0][0]) ? $_smarty_tpl->smarty->registered_plugins['block']['iterate'][0][0] : null;
-if (!is_callable(array($_block_plugin9, 'smartyIterate'))) {
+function content_6a54272a8fe381_20907061 (Smarty_Internal_Template $_smarty_tpl) {
+$_block_plugin1 = isset($_smarty_tpl->smarty->registered_plugins['block']['iterate'][0][0]) ? $_smarty_tpl->smarty->registered_plugins['block']['iterate'][0][0] : null;
+if (!is_callable(array($_block_plugin1, 'smartyIterate'))) {
 throw new SmartyException('block tag \'iterate\' not callable or registered');
 }
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('iterate', array('from'=>'reviewFormElements','item'=>'reviewFormElement'));
 $_block_repeat=true;
-echo $_block_plugin9->smartyIterate(array('from'=>'reviewFormElements','item'=>'reviewFormElement'), null, $_smarty_tpl, $_block_repeat);
+echo $_block_plugin1->smartyIterate(array('from'=>'reviewFormElements','item'=>'reviewFormElement'), null, $_smarty_tpl, $_block_repeat);
 while ($_block_repeat) {
 ob_start();?>
 	<?php $_smarty_tpl->_assignInScope('elementId', $_smarty_tpl->tpl_vars['reviewFormElement']->value->getId());?>
@@ -39,13 +39,13 @@ ob_start();?>
 		<?php $_smarty_tpl->_assignInScope('list', false);?>
 	<?php }?>
 
-	<?php $_block_plugin10 = isset($_smarty_tpl->smarty->registered_plugins['block']['fbvFormSection'][0][0]) ? $_smarty_tpl->smarty->registered_plugins['block']['fbvFormSection'][0][0] : null;
-if (!is_callable(array($_block_plugin10, 'smartyFBVFormSection'))) {
+	<?php $_block_plugin2 = isset($_smarty_tpl->smarty->registered_plugins['block']['fbvFormSection'][0][0]) ? $_smarty_tpl->smarty->registered_plugins['block']['fbvFormSection'][0][0] : null;
+if (!is_callable(array($_block_plugin2, 'smartyFBVFormSection'))) {
 throw new SmartyException('block tag \'fbvFormSection\' not callable or registered');
 }
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('fbvFormSection', array('translate'=>false,'title'=>$_smarty_tpl->tpl_vars['reviewFormElement']->value->getLocalizedQuestion(),'list'=>$_smarty_tpl->tpl_vars['list']->value,'required'=>$_smarty_tpl->tpl_vars['reviewFormElement']->value->getRequired()));
 $_block_repeat=true;
-echo $_block_plugin10->smartyFBVFormSection(array('translate'=>false,'title'=>$_smarty_tpl->tpl_vars['reviewFormElement']->value->getLocalizedQuestion(),'list'=>$_smarty_tpl->tpl_vars['list']->value,'required'=>$_smarty_tpl->tpl_vars['reviewFormElement']->value->getRequired()), null, $_smarty_tpl, $_block_repeat);
+echo $_block_plugin2->smartyFBVFormSection(array('translate'=>false,'title'=>$_smarty_tpl->tpl_vars['reviewFormElement']->value->getLocalizedQuestion(),'list'=>$_smarty_tpl->tpl_vars['list']->value,'required'=>$_smarty_tpl->tpl_vars['reviewFormElement']->value->getRequired()), null, $_smarty_tpl, $_block_repeat);
 while ($_block_repeat) {
 ob_start();?>
 		<?php $_smarty_tpl->_assignInScope('description', $_smarty_tpl->tpl_vars['reviewFormElement']->value->getLocalizedDescription());?>
@@ -111,11 +111,11 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 
 		<?php }?>
 	<?php $_block_repeat=false;
-echo $_block_plugin10->smartyFBVFormSection(array('translate'=>false,'title'=>$_smarty_tpl->tpl_vars['reviewFormElement']->value->getLocalizedQuestion(),'list'=>$_smarty_tpl->tpl_vars['list']->value,'required'=>$_smarty_tpl->tpl_vars['reviewFormElement']->value->getRequired()), ob_get_clean(), $_smarty_tpl, $_block_repeat);
+echo $_block_plugin2->smartyFBVFormSection(array('translate'=>false,'title'=>$_smarty_tpl->tpl_vars['reviewFormElement']->value->getLocalizedQuestion(),'list'=>$_smarty_tpl->tpl_vars['list']->value,'required'=>$_smarty_tpl->tpl_vars['reviewFormElement']->value->getRequired()), ob_get_clean(), $_smarty_tpl, $_block_repeat);
 }
 array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);
 $_block_repeat=false;
-echo $_block_plugin9->smartyIterate(array('from'=>'reviewFormElements','item'=>'reviewFormElement'), ob_get_clean(), $_smarty_tpl, $_block_repeat);
+echo $_block_plugin1->smartyIterate(array('from'=>'reviewFormElements','item'=>'reviewFormElement'), ob_get_clean(), $_smarty_tpl, $_block_repeat);
 }
 array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);
 }

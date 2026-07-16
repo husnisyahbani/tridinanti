@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-26 15:26:05
+/* Smarty version 3.1.39, created on 2026-07-15 09:54:55
   from 'app:linkActionlinkActionButto' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694e469d8fd367_77894751',
+  'unifunc' => 'content_6a56f67f5530a5_03900673',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_694e469d8fd367_77894751 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a56f67f5530a5_03900673 (Smarty_Internal_Template $_smarty_tpl) {
 ?><a href="#" id="<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['buttonId']->value ));?>
 "<?php if ($_smarty_tpl->tpl_vars['action']->value->getToolTip()) {?> title="<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['action']->value->getToolTip() ));?>
 "<?php }?> class="pkp_controllers_linkAction pkp_linkaction_<?php echo $_smarty_tpl->tpl_vars['action']->value->getId();?>

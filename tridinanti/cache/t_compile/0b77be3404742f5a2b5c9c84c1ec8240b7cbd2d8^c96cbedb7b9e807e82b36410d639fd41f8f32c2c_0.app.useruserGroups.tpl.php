@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-26 09:01:05
+/* Smarty version 3.1.39, created on 2026-07-04 03:36:52
   from 'app:useruserGroups.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694dec61477ac9_13219406',
+  'unifunc' => 'content_6a481d643e9590_45839644',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:controllers/extrasOnDemand.tpl' => 1,
   ),
 ),false)) {
-function content_694dec61477ac9_13219406 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a481d643e9590_45839644 (Smarty_Internal_Template $_smarty_tpl) {
 $_block_plugin1 = isset($_smarty_tpl->smarty->registered_plugins['block']['fbvFormArea'][0][0]) ? $_smarty_tpl->smarty->registered_plugins['block']['fbvFormArea'][0][0] : null;
 if (!is_callable(array($_block_plugin1, 'smartyFBVFormArea'))) {
 throw new SmartyException('block tag \'fbvFormArea\' not callable or registered');

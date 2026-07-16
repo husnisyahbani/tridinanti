@@ -5,7 +5,7 @@
 <div style="border-top-left-radius: 8px; border-top-right-radius: 8px; padding: 8px 16px; color: #fff; background: linear-gradient(38deg, rgba(28, 79, 132, 1) 0%, rgba(166, 206, 239, 1)100%);">Indeks by</div>
 <div class="container">
 <ul style="list-style-type: none; padding: 0; border: 1px solid #ddd;">
-<li class="show" style="padding: 8px 16px; border-bottom: 1px solid #ddd;"><a href="https://sinta.kemdikbud.go.id/journals/profile/8959" target="_blank" rel="noopener"><img src="https://ejournal.uksw.edu/public/site/images/administrator/sinta.png"></a>&nbsp;</li>
+<li class="show" style="padding: 8px 16px; border-bottom: 1px solid #ddd;"><a href="https://sinta.kemdikbud.go.id/journals/profile/8959" target="_blank" rel="noopener"><img src="https://ejournal.uksw.edu/public/site/images/administrator/sinta.png"></a> .</li>
 <li class="show" style="padding: 8px 16px; border-bottom: 1px solid #ddd;"><a href="https://search.crossref.org/?q=kompetitif" target="_blank" rel="noopener"><img src="https://ejournal.uksw.edu/public/site/images/administrator/crossref.png"></a>&nbsp;</li>
 <li class="show" style="padding: 8px 16px; border-bottom: 1px solid #ddd;"><a href="https://garuda.kemdikbud.go.id/journal/view/7189" target="_blank" rel="noopener"><img src="https://ejournal.uksw.edu/public/site/images/administrator/garuda1.png"></a></li>
 <li class="show" style="padding: 8px 16px; border-bottom: 1px solid #ddd;"><a href="https://scholar.google.co.id/citations?hl=en&amp;user=k1urG68AAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noopener"><img src="https://ejournal.uksw.edu/public/site/images/administrator/google-scholar.png"></a></li>

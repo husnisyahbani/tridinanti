@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-30 00:48:51
+/* Smarty version 3.1.39, created on 2026-07-13 08:34:02
   from 'app:submissionformsectionPoli' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6952bf03eb3ae7_29679511',
+  'unifunc' => 'content_6a54408a3a22b7_10840378',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6952bf03eb3ae7_29679511 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a54408a3a22b7_10840378 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('class', "section-policy section-id-".((string)$_smarty_tpl->tpl_vars['sectionId']->value)." ".((string)$_smarty_tpl->tpl_vars['class']->value));?>
 
 <?php $_block_plugin1 = isset($_smarty_tpl->smarty->registered_plugins['block']['fbvFormSection'][0][0]) ? $_smarty_tpl->smarty->registered_plugins['block']['fbvFormSection'][0][0] : null;

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-26 01:23:29
+/* Smarty version 3.1.39, created on 2026-07-07 06:00:47
   from 'app:commonloadingContainer.tp' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694d8121bb1131_25511766',
+  'unifunc' => 'content_6a4c339f4bb5c2_98972930',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_694d8121bb1131_25511766 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a4c339f4bb5c2_98972930 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="pkp_loading">
 	<span class="pkp_spinner"></span>

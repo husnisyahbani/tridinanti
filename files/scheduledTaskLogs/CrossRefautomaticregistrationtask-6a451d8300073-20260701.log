@@ -1,0 +1,258 @@
+[2026-07-01 21:00:35] https://ejournal.univ-tridinanti.ac.id
+[2026-07-01 21:00:35] [Notice] Task process started.
+[2026-07-01 21:00:51] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2026-07-01 21:01:07] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2026-07-01 21:01:24] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2026-07-01 21:01:39] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2026-07-01 21:01:55] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2026-07-01 21:02:11] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2026-07-01 21:02:27] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2026-07-01 21:02:43] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2026-07-01 21:02:59] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2026-07-01 21:03:14] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2026-07-01 21:03:30] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2026-07-01 21:03:46] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2026-07-01 21:04:02] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2026-07-01 21:04:18] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2026-07-01 21:04:34] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2026-07-01 21:04:50] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2026-07-01 21:05:06] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2026-07-01 21:05:21] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2026-07-01 21:05:37] [Warning] Registration was not successful! The DOI registration server returned an error: ' (401 Unauthorized)'.
+[2026-07-01 21:07:23] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>502 Bad Gateway</h1>
+The server returned an invalid or incomplete response.
+</body></html>
+ (502 Bad Gateway)'.
+[2026-07-01 21:07:40] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:07:55] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:08:11] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:08:27] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:08:43] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:08:58] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:09:14] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:09:30] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:09:46] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:10:01] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:10:17] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:10:33] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:10:49] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:11:04] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:11:20] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:11:35] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:11:51] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:12:07] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:12:23] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:12:38] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:12:54] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:13:10] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:13:26] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:13:41] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:13:57] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:14:12] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:14:28] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:14:43] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:14:59] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:15:15] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:15:31] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:15:47] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:16:02] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:16:18] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:16:34] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:16:49] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:17:05] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:17:21] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:17:36] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:17:52] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:18:07] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:18:23] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:18:39] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:18:54] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:19:10] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:19:26] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:19:42] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:19:57] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:20:13] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:20:28] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:20:44] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:21:00] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:21:15] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:21:31] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:21:46] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:22:02] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:22:18] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:22:33] [Warning] Registration was not successful! The DOI registration server returned an error: '<html><body><h1>503 Service Unavailable</h1>
+No server is available to handle this request.
+</body></html>
+ (503 Service Unavailable)'.
+[2026-07-01 21:22:33] [Notice] Task process stopped.

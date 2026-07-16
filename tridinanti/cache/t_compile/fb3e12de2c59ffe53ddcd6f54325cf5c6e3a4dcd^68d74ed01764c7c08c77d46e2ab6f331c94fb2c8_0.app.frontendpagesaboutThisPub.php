@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-24 17:56:31
+/* Smarty version 3.1.39, created on 2026-07-05 08:27:25
   from 'app:frontendpagesaboutThisPub' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694bc6df7fbcb8_59953368',
+  'unifunc' => 'content_6a49b2fde82848_51112017',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:frontend/components/footer.tpl' => 1,
   ),
 ),false)) {
-function content_694bc6df7fbcb8_59953368 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a49b2fde82848_51112017 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("app:frontend/components/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('pageTitle'=>"about.aboutSoftware"), 0, false);
 ?>
 

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-24 14:18:34
+/* Smarty version 3.1.39, created on 2026-07-07 19:04:04
   from 'app:linkActionlinkAction.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694b93ca4657c5_00885533',
+  'unifunc' => 'content_6a4ceb34dca516_39254925',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:linkAction/linkActionOptions.tpl' => 1,
   ),
 ),false)) {
-function content_694b93ca4657c5_00885533 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a4ceb34dca516_39254925 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['contextId']->value) {?>
 	<?php $_smarty_tpl->_assignInScope('staticId', call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'concat' ][ 0 ], array( $_smarty_tpl->tpl_vars['contextId']->value,"-",$_smarty_tpl->tpl_vars['action']->value->getId(),"-button" )));
 } else { ?>

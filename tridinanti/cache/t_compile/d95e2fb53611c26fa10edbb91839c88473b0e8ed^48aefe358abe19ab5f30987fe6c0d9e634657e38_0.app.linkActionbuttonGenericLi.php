@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-24 05:01:45
+/* Smarty version 3.1.39, created on 2026-07-04 03:30:53
   from 'app:linkActionbuttonGenericLi' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694b1149337358_35678674',
+  'unifunc' => 'content_6a481bfd19bdf6_30903616',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:linkAction/linkActionOptions.tpl' => 1,
   ),
 ),false)) {
-function content_694b1149337358_35678674 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a481bfd19bdf6_30903616 (Smarty_Internal_Template $_smarty_tpl) {
 echo '<script'; ?>
 >
 	$(function() {

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-29 06:12:15
+/* Smarty version 3.1.39, created on 2026-07-14 15:48:47
   from 'app:frontendcomponentsnavigat' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6951b94f059c01_18924094',
+  'unifunc' => 'content_6a55f7ef40a2f8_85420648',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6951b94f059c01_18924094 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a55f7ef40a2f8_85420648 (Smarty_Internal_Template $_smarty_tpl) {
 echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['navigationMenuItem']->value->getLocalizedTitle() ));?>
 
 <span class="task_count">

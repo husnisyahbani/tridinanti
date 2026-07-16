@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-25 17:45:55
+/* Smarty version 3.1.39, created on 2026-07-10 22:50:06
   from 'app:submissionformsection.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694d15e3d2e4f0_64600751',
+  'unifunc' => 'content_6a5114aeb71225_82884904',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:submission/form/sectionPolicy.tpl' => 1,
   ),
 ),false)) {
-function content_694d15e3d2e4f0_64600751 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a5114aeb71225_82884904 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('sectionDescription', '');
 if (!$_smarty_tpl->tpl_vars['readOnly']->value) {?>
 	<?php $_smarty_tpl->_assignInScope('sectionDescription', "author.submit.journalSectionDescription");

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-29 06:00:00
+/* Smarty version 3.1.39, created on 2026-07-04 05:49:17
   from 'app:frontendcomponentsregistr' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6951b670c13bc3_51377862',
+  'unifunc' => 'content_6a483c6d0fe926_13722281',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2337a06e9cc4d931cf6ffcdfe9c920f5d6b5541a' => 
     array (
       0 => 'app:frontendcomponentsregistr',
-      1 => 1664910729,
+      1 => 1782699905,
       2 => 'app',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6951b670c13bc3_51377862 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a483c6d0fe926_13722281 (Smarty_Internal_Template $_smarty_tpl) {
 if (!$_smarty_tpl->tpl_vars['currentContext']->value) {?>
 
 		<fieldset name="contexts">

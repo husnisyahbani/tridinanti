@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-26 09:09:39
+/* Smarty version 3.1.39, created on 2026-07-09 17:14:41
   from 'app:controllersmodalsdocument' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694dee6307e5f6_20073121',
+  'unifunc' => 'content_6a4f7491556d79_02239073',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_694dee6307e5f6_20073121 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a4f7491556d79_02239073 (Smarty_Internal_Template $_smarty_tpl) {
 echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['help'][0], array( array('file'=>"editorial-workflow",'section'=>"submission-library",'class'=>"pkp_help_modal"),$_smarty_tpl ) );?>
 
 

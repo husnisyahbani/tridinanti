@@ -1,7 +1,7 @@
 <?php return array (
-  'baseColour' => '#340638',
+  'baseColour' => '#DA1313',
   'enabled' => true,
   'showDescriptionInJournalIndex' => 'true',
-  'typography' => 'notoSans',
+  'typography' => 'lora_openSans',
   'useHomepageImageAsHeader' => 'false',
 );

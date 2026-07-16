@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-24 05:03:47
+/* Smarty version 3.1.39, created on 2026-07-07 05:27:46
   from 'app:controllerstabworkflowsub' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694b11c3201004_90598785',
+  'unifunc' => 'content_6a4c2be23824f0_40561517',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:controllers/tab/workflow/stageParticipants.tpl' => 1,
   ),
 ),false)) {
-function content_694b11c3201004_90598785 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a4c2be23824f0_40561517 (Smarty_Internal_Template $_smarty_tpl) {
 echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['help'][0], array( array('file'=>"editorial-workflow/submission",'class'=>"pkp_help_tab"),$_smarty_tpl ) );?>
 
 

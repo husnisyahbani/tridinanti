@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2025-12-26 01:19:04
+/* Smarty version 3.1.39, created on 2026-07-06 10:50:37
   from 'app:authorDashboardreviewRoun' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_694d8018baca27_58077483',
+  'unifunc' => 'content_6a4b260d81a1d7_25390870',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_694d8018baca27_58077483 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a4b260d81a1d7_25390870 (Smarty_Internal_Template $_smarty_tpl) {
 echo '<script'; ?>
  type="text/javascript">
 	// Attach the JS file tab handler.
