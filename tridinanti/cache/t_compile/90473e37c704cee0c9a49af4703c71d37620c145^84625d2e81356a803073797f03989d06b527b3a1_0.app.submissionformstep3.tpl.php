@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-10 23:08:18
+/* Smarty version 3.1.39, created on 2026-07-22 19:46:20
   from 'app:submissionformstep3.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a5118f290dc16_86693823',
+  'unifunc' => 'content_6a60bb9cd068e6_49986880',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:submission/submissionMetadataFormFields.tpl' => 1,
   ),
 ),false)) {
-function content_6a5118f290dc16_86693823 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a60bb9cd068e6_49986880 (Smarty_Internal_Template $_smarty_tpl) {
 echo '<script'; ?>
  type="text/javascript">
 	$(function() {

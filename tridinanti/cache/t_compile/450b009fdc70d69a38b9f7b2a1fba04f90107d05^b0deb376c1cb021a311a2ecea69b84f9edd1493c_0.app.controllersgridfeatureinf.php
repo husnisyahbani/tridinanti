@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-07 05:30:27
+/* Smarty version 3.1.39, created on 2026-07-22 12:41:05
   from 'app:controllersgridfeatureinf' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a4c2c83d97228_79443736',
+  'unifunc' => 'content_6a6057f1cf67a8_86428070',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:common/loadingContainer.tpl' => 1,
   ),
 ),false)) {
-function content_6a4c2c83d97228_79443736 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a6057f1cf67a8_86428070 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['iterator']->value->getCount()) {?>
 	<div class="gridPagingScrolling">
 		<?php if ($_smarty_tpl->tpl_vars['moreItemsLinkAction']->value) {?>

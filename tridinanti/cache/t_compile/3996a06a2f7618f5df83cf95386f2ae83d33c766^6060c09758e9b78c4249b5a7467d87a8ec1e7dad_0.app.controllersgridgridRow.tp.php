@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-04 03:30:53
+/* Smarty version 3.1.39, created on 2026-07-22 07:38:36
   from 'app:controllersgridgridRow.tp' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a481bfd1f8ed8_61332284',
+  'unifunc' => 'content_6a60110c1ed926_74014266',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:linkAction/linkAction.tpl' => 2,
   ),
 ),false)) {
-function content_6a481bfd1f8ed8_61332284 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a60110c1ed926_74014266 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/home/univ-tridinanti-ejournal/htdocs/ejournal.univ-tridinanti.ac.id/tridinanti/lib/pkp/lib/vendor/smarty/smarty/libs/plugins/modifier.replace.php','function'=>'smarty_modifier_replace',),));
 if (!is_null($_smarty_tpl->tpl_vars['row']->value->getId())) {?>
 	<?php $_smarty_tpl->_assignInScope('rowIdPrefix', call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'concat' ][ 0 ], array( "component-",$_smarty_tpl->tpl_vars['row']->value->getGridId() )));?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-06 10:45:38
+/* Smarty version 3.1.39, created on 2026-07-22 12:20:41
   from 'app:workflowsubmissionProgres' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a4b24e2b44ad1_24873407',
+  'unifunc' => 'content_6a605329407301_10413406',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6a4b24e2b44ad1_24873407 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a605329407301_10413406 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('selectedTabIndex', 0);
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['workflowStages']->value, 'stage');
 $_smarty_tpl->tpl_vars['stage']->do_else = true;

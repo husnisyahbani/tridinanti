@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-04 03:36:52
+/* Smarty version 3.1.39, created on 2026-07-22 22:48:10
   from 'app:useruserGroupSelfRegistra' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a481d644100f2_31845252',
+  'unifunc' => 'content_6a60e63a899fb7_94701277',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6a481d644100f2_31845252 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a60e63a899fb7_94701277 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('contextId', $_smarty_tpl->tpl_vars['context']->value->getId());
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['readerUserGroups']->value[$_smarty_tpl->tpl_vars['contextId']->value], 'userGroup');
 $_smarty_tpl->tpl_vars['userGroup']->do_else = true;

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-04 04:06:42
+/* Smarty version 3.1.39, created on 2026-07-22 08:46:53
   from 'plugins-6-plugins-generic-recommendByAuthor-generic-recommendByAuthor:articleFooter.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a482462099e52_09097955',
+  'unifunc' => 'content_6a60210d051679_79100783',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6a482462099e52_09097955 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a60210d051679_79100783 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="articlesBySameAuthorList">
 	<?php if ($_smarty_tpl->tpl_vars['noMetricSelected']->value) {?>
 		<h3><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0], array( array('key'=>"plugins.generic.recommendByAuthor.heading"),$_smarty_tpl ) );?>
@@ -33,13 +33,13 @@ function content_6a482462099e52_09097955 (Smarty_Internal_Template $_smarty_tpl)
 </h3>
 
 			<ul>
-				<?php $_block_plugin2 = isset($_smarty_tpl->smarty->registered_plugins['block']['iterate'][0][0]) ? $_smarty_tpl->smarty->registered_plugins['block']['iterate'][0][0] : null;
-if (!is_callable(array($_block_plugin2, 'smartyIterate'))) {
+				<?php $_block_plugin1 = isset($_smarty_tpl->smarty->registered_plugins['block']['iterate'][0][0]) ? $_smarty_tpl->smarty->registered_plugins['block']['iterate'][0][0] : null;
+if (!is_callable(array($_block_plugin1, 'smartyIterate'))) {
 throw new SmartyException('block tag \'iterate\' not callable or registered');
 }
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('iterate', array('from'=>'articlesBySameAuthor','item'=>'articleBySameAuthor'));
 $_block_repeat=true;
-echo $_block_plugin2->smartyIterate(array('from'=>'articlesBySameAuthor','item'=>'articleBySameAuthor'), null, $_smarty_tpl, $_block_repeat);
+echo $_block_plugin1->smartyIterate(array('from'=>'articlesBySameAuthor','item'=>'articleBySameAuthor'), null, $_smarty_tpl, $_block_repeat);
 while ($_block_repeat) {
 ob_start();?>
 					<?php $_smarty_tpl->_assignInScope('submission', $_smarty_tpl->tpl_vars['articleBySameAuthor']->value['publishedSubmission']);?>
@@ -71,7 +71,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 						</a>
 					</li>
 				<?php $_block_repeat=false;
-echo $_block_plugin2->smartyIterate(array('from'=>'articlesBySameAuthor','item'=>'articleBySameAuthor'), ob_get_clean(), $_smarty_tpl, $_block_repeat);
+echo $_block_plugin1->smartyIterate(array('from'=>'articlesBySameAuthor','item'=>'articleBySameAuthor'), ob_get_clean(), $_smarty_tpl, $_block_repeat);
 }
 array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);?>
 			</ul>

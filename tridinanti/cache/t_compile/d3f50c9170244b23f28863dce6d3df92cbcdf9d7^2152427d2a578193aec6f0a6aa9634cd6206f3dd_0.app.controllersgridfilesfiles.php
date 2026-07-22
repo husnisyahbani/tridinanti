@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-05 20:19:36
+/* Smarty version 3.1.39, created on 2026-07-22 12:20:42
   from 'app:controllersgridfilesfiles' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a4a59e8b9c074_77738717',
+  'unifunc' => 'content_6a60532a59a472_46945607',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6a4a59e8b9c074_77738717 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a60532a59a472_46945607 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('formId', uniqid(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'concat' ][ 0 ], array( "submissionFilesListFilter-",$_smarty_tpl->tpl_vars['filterData']->value['gridId'],"-" ))));
 echo '<script'; ?>
  type="text/javascript">

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-07 19:04:04
+/* Smarty version 3.1.39, created on 2026-07-22 19:02:02
   from 'app:reviewerreviewstep1.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a4ceb34cfce02_18921830',
+  'unifunc' => 'content_6a60b13a322455_66468600',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'core:reviewer/review/step1.tpl' => 1,
   ),
 ),false)) {
-function content_6a4ceb34cfce02_18921830 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a60b13a322455_66468600 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_assignInScope('descriptionFieldKey', "article.abstract");
 $_smarty_tpl->_subTemplateRender("core:reviewer/review/step1.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 }

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-10 23:08:18
+/* Smarty version 3.1.39, created on 2026-07-22 19:46:20
   from 'app:submissionsubmissionMetad' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a5118f29cdb95_69050810',
+  'unifunc' => 'content_6a60bb9cd23204_72690518',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6a5118f29cdb95_69050810 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a60bb9cd23204_72690518 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['formParams']->value['submissionVersion'] && ($_smarty_tpl->tpl_vars['formParams']->value['submissionVersion'] < $_smarty_tpl->tpl_vars['currentSubmissionVersion']->value)) {?>
   <?php $_smarty_tpl->_assignInScope('readOnly', 1);
 } else { ?>

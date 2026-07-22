@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-04 03:57:13
+/* Smarty version 3.1.39, created on 2026-07-22 08:13:23
   from 'plugins-3-plugins-generic-recommendByAuthor-generic-recommendByAuthor:articleFooter.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a482229bc3cc0_72588916',
+  'unifunc' => 'content_6a60193393ec77_47770985',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6a482229bc3cc0_72588916 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a60193393ec77_47770985 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="articlesBySameAuthorList">
 	<?php if ($_smarty_tpl->tpl_vars['noMetricSelected']->value) {?>
 		<h3><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0], array( array('key'=>"plugins.generic.recommendByAuthor.heading"),$_smarty_tpl ) );?>

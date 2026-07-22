@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-06 10:45:39
+/* Smarty version 3.1.39, created on 2026-07-22 12:20:41
   from 'app:controllerstabworkflowrev' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a4b24e37d1c09_19699985',
+  'unifunc' => 'content_6a6053298d3db9_27135136',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:linkAction/linkAction.tpl' => 1,
   ),
 ),false)) {
-function content_6a4b24e37d1c09_19699985 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a6053298d3db9_27135136 (Smarty_Internal_Template $_smarty_tpl) {
 echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['help'][0], array( array('file'=>"editorial-workflow/review",'class'=>"pkp_help_tab"),$_smarty_tpl ) );?>
 
 

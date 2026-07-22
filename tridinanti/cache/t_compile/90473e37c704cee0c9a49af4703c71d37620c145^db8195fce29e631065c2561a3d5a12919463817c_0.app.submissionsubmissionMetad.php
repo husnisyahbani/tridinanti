@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-10 23:08:18
+/* Smarty version 3.1.39, created on 2026-07-22 19:46:20
   from 'app:submissionsubmissionMetad' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a5118f29f8701_67767801',
+  'unifunc' => 'content_6a60bb9cd33099_64142845',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'core:submission/submissionMetadataFormFields.tpl' => 1,
   ),
 ),false)) {
-function content_6a5118f29f8701_67767801 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a60bb9cd33099_64142845 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, 'default', "languagesField", null);?>
 	<?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, 'default', "sectionDescription", null);
 if (!$_smarty_tpl->tpl_vars['readOnly']->value) {?>submission.submit.metadataForm.tip<?php }

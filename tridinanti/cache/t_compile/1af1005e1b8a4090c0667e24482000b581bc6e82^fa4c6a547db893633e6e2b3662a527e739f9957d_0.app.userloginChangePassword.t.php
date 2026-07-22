@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-11 15:27:26
+/* Smarty version 3.1.39, created on 2026-07-22 15:04:22
   from 'app:userloginChangePassword.t' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a51fe6e90f4d1_32219142',
+  'unifunc' => 'content_6a60798673f029_17830007',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,25 +21,25 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:common/formErrors.tpl' => 1,
   ),
 ),false)) {
-function content_6a51fe6e90f4d1_32219142 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a60798673f029_17830007 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_2690003906a51fe6e8f9490_90713876', "page");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_16650764836a60798670c167_63581825', "page");
 ?>
 
 <?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, "layouts/backend.tpl");
 }
 /* {block "page"} */
-class Block_2690003906a51fe6e8f9490_90713876 extends Smarty_Internal_Block
+class Block_16650764836a60798670c167_63581825 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'page' => 
   array (
-    0 => 'Block_2690003906a51fe6e8f9490_90713876',
+    0 => 'Block_16650764836a60798670c167_63581825',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-07 09:25:23
+/* Smarty version 3.1.39, created on 2026-07-22 19:42:34
   from 'app:submissionformcategories.' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a4c639312e000_79818338',
+  'unifunc' => 'content_6a60babaf00cb6_54001759',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6a4c639312e000_79818338 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a60babaf00cb6_54001759 (Smarty_Internal_Template $_smarty_tpl) {
 if (count($_smarty_tpl->tpl_vars['categories']->value)) {?>
 	<?php if ($_smarty_tpl->tpl_vars['readOnly']->value) {?>
 		<?php $_block_plugin11 = isset($_smarty_tpl->smarty->registered_plugins['block']['fbvFormSection'][0][0]) ? $_smarty_tpl->smarty->registered_plugins['block']['fbvFormSection'][0][0] : null;

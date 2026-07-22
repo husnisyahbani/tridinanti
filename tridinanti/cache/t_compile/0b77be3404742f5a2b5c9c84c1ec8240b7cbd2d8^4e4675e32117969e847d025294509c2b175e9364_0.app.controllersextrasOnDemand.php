@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-04 03:36:52
+/* Smarty version 3.1.39, created on 2026-07-22 22:48:10
   from 'app:controllersextrasOnDemand' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a481d64426000_24240383',
+  'unifunc' => 'content_6a60e63a8b8c80_65562070',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6a481d64426000_24240383 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a60e63a8b8c80_65562070 (Smarty_Internal_Template $_smarty_tpl) {
 echo '<script'; ?>
 >
 	// Initialise JS handler.

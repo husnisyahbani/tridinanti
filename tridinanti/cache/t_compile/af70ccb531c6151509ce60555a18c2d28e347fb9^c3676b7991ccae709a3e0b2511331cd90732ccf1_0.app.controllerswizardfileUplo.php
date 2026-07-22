@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-06 10:46:58
+/* Smarty version 3.1.39, created on 2026-07-22 12:39:35
   from 'app:controllerswizardfileUplo' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a4b2532a30cc5_44053378',
+  'unifunc' => 'content_6a6057978d1d02_81693440',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6a4b2532a30cc5_44053378 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a6057978d1d02_81693440 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="finishSubmissionForm" class="pkp_helpers_text_center">
 	<h2><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0], array( array('key'=>"submission.submit.fileAdded"),$_smarty_tpl ) );?>
 </h2>

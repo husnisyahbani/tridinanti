@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-07 05:22:47
+/* Smarty version 3.1.39, created on 2026-07-22 12:54:59
   from 'app:controllersgridarticleGal' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a4c2ab786e5a9_62795645',
+  'unifunc' => 'content_6a605b330c1b36_84024472',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6a4c2ab786e5a9_62795645 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a605b330c1b36_84024472 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['urlRemote']->value) {?>
 	<?php $_smarty_tpl->_assignInScope('remoteRepresentation', true);
 } else { ?>

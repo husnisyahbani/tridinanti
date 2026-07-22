@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-18 13:55:30
+/* Smarty version 3.1.39, created on 2026-07-22 07:42:54
   from 'app:userrolesForm.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a5b2362d20d67_01588076',
+  'unifunc' => 'content_6a60120eac1ac2_06284249',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:user/userGroups.tpl' => 1,
   ),
 ),false)) {
-function content_6a5b2362d20d67_01588076 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a60120eac1ac2_06284249 (Smarty_Internal_Template $_smarty_tpl) {
 echo '<script'; ?>
 >
 	$(function() {

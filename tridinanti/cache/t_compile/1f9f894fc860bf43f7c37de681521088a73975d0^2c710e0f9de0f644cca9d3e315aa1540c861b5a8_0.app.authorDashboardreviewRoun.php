@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-06 10:50:38
+/* Smarty version 3.1.39, created on 2026-07-22 12:37:58
   from 'app:authorDashboardreviewRoun' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a4b260e527687_09967553',
+  'unifunc' => 'content_6a6057366d9ac1_77442445',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:authorDashboard/submissionEmails.tpl' => 1,
   ),
 ),false)) {
-function content_6a4b260e527687_09967553 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a6057366d9ac1_77442445 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!--  Display round status -->
 <?php $_smarty_tpl->_subTemplateRender("app:controllers/notification/inPlaceNotification.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array('notificationId'=>call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'concat' ][ 0 ], array( "reviewRoundNotification_",$_smarty_tpl->tpl_vars['reviewRoundId']->value )),'requestOptions'=>$_smarty_tpl->tpl_vars['reviewRoundNotificationRequestOptions']->value), 0, false);

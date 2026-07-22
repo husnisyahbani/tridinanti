@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-15 21:44:18
+/* Smarty version 3.1.39, created on 2026-07-22 12:57:57
   from 'app:controllerstabpubIdsformp' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a579cc246c3b7_09821827',
+  'unifunc' => 'content_6a605be5435c79_42582326',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:controllers/notification/inPlaceNotification.tpl' => 4,
   ),
 ),false)) {
-function content_6a579cc246c3b7_09821827 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a605be5435c79_42582326 (Smarty_Internal_Template $_smarty_tpl) {
 echo '<script'; ?>
 >
 	$(function() {

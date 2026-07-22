@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-04 04:42:19
+/* Smarty version 3.1.39, created on 2026-07-22 09:34:59
   from 'plugins-16-plugins-generic-pdfJsViewer-generic-pdfJsViewer:submissionGalley.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a482cbbaeadd0_17613915',
+  'unifunc' => 'content_6a602c53c9fbe7_41783349',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6a482cbbaeadd0_17613915 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a602c53c9fbe7_41783349 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/home/univ-tridinanti-ejournal/htdocs/ejournal.univ-tridinanti.ac.id/tridinanti/lib/pkp/lib/vendor/smarty/smarty/libs/plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
 $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, 'default', "pdfUrl", null);
 if ($_smarty_tpl->tpl_vars['isLatestPublication']->value) {

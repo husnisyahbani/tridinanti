@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-06 11:48:55
+/* Smarty version 3.1.39, created on 2026-07-22 16:56:21
   from 'app:controllersgridqueriesfor' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a4b33b78a9255_25345379',
+  'unifunc' => 'content_6a6093c59613c7_15125991',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'app:controllers/notification/inPlaceNotification.tpl' => 1,
   ),
 ),false)) {
-function content_6a4b33b78a9255_25345379 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a6093c59613c7_15125991 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
  <?php if (!count($_smarty_tpl->tpl_vars['allParticipants']->value)) {?>
 		<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0], array( array('key'=>"submission.query.noParticipantOptions"),$_smarty_tpl ) );?>

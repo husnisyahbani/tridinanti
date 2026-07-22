@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-05 20:19:35
+/* Smarty version 3.1.39, created on 2026-07-22 12:20:42
   from 'app:controllersgridusersautho' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a4a59e77fdb15_03930963',
+  'unifunc' => 'content_6a60532a0beda1_70074165',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6a4a59e77fdb15_03930963 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a60532a0beda1_70074165 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['isPrincipalContact']->value) {?>
 	<div id="isChecked"><div href="#" class='pkp_helpers_container_center checked'></div></div>
 <?php }?>

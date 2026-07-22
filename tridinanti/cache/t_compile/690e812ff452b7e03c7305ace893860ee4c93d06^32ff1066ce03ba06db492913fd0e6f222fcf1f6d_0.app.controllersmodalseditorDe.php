@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-10 15:37:02
+/* Smarty version 3.1.39, created on 2026-07-22 12:40:24
   from 'app:controllersmodalseditorDe' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a50af2e1fff03_91089502',
+  'unifunc' => 'content_6a6057c82ecb61_62247479',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,15 +20,15 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6a50af2e1fff03_91089502 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a6057c82ecb61_62247479 (Smarty_Internal_Template $_smarty_tpl) {
 if (count($_smarty_tpl->tpl_vars['reviewers']->value)) {?>
-	<?php $_block_plugin1 = isset($_smarty_tpl->smarty->registered_plugins['block']['fbvFormSection'][0][0]) ? $_smarty_tpl->smarty->registered_plugins['block']['fbvFormSection'][0][0] : null;
-if (!is_callable(array($_block_plugin1, 'smartyFBVFormSection'))) {
+	<?php $_block_plugin6 = isset($_smarty_tpl->smarty->registered_plugins['block']['fbvFormSection'][0][0]) ? $_smarty_tpl->smarty->registered_plugins['block']['fbvFormSection'][0][0] : null;
+if (!is_callable(array($_block_plugin6, 'smartyFBVFormSection'))) {
 throw new SmartyException('block tag \'fbvFormSection\' not callable or registered');
 }
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('fbvFormSection', array('title'=>"submission.comments.sendToReviewers"));
 $_block_repeat=true;
-echo $_block_plugin1->smartyFBVFormSection(array('title'=>"submission.comments.sendToReviewers"), null, $_smarty_tpl, $_block_repeat);
+echo $_block_plugin6->smartyFBVFormSection(array('title'=>"submission.comments.sendToReviewers"), null, $_smarty_tpl, $_block_repeat);
 while ($_block_repeat) {
 ob_start();?>
 		<span class="description"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0], array( array('key'=>"submission.comments.sendCopyToReviewers"),$_smarty_tpl ) );?>
@@ -47,7 +47,7 @@ $_smarty_tpl->tpl_vars['name']->do_else = false;
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 		</ul>
 	<?php $_block_repeat=false;
-echo $_block_plugin1->smartyFBVFormSection(array('title'=>"submission.comments.sendToReviewers"), ob_get_clean(), $_smarty_tpl, $_block_repeat);
+echo $_block_plugin6->smartyFBVFormSection(array('title'=>"submission.comments.sendToReviewers"), ob_get_clean(), $_smarty_tpl, $_block_repeat);
 }
 array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);
 }

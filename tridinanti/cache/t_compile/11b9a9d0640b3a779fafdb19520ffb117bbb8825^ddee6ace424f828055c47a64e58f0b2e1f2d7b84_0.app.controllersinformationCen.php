@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2026-07-10 15:49:26
+/* Smarty version 3.1.39, created on 2026-07-22 19:05:13
   from 'app:controllersinformationCen' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6a50b2165b7700_46976686',
+  'unifunc' => 'content_6a60b1f9204df2_12458825',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6a50b2165b7700_46976686 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6a60b1f9204df2_12458825 (Smarty_Internal_Template $_smarty_tpl) {
 echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['help'][0], array( array('file'=>"editorial-workflow",'section'=>"editorial-history",'class'=>"pkp_help_tab"),$_smarty_tpl ) );?>
 
 
